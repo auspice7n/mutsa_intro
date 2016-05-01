@@ -1,0 +1,253 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+
+
+/* 전체적으로 적용하기 */
+body {    
+  padding-top: 90px;    //nav 바를 고려, 60px 공백
+  font-family: 'Noto Sans', sans-serif;
+  color:rgb(80,80,80);
+}
+
+.main-title-big {
+  font-size: 5em;
+  font-weight:500;
+  margin-bottom:-20px;
+}
+
+.main-title-small {
+  font-size: 5em;
+  font-weight:100;
+  margin-bottom:-20px;
+}
+
+.main-big {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom:10px;
+}
+.main-small {
+  font-size: 0.9em;
+  font-weight: 200;
+  margin-bottom:40px;
+}
+
+
+/* 소페이지 */
+.side-title {
+  
+  border-bottom-width:2px;
+  border-bottom-color:Black;
+  border-bottom-style: solid;
+  font-size: 1.1em;
+  font-weight:700;
+  
+}
+
+.main-title {
+  border-bottom-width:2px;
+  border-bottom-color:Black;
+  border-bottom-style: solid;
+  margin-bottom:50px;
+}
+
+/*
+section {
+  overflow: auto;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+*/
+
+
+/* header */
+
+#logo {
+  float: left;    //왼쪽으로.
+  margin-right: 50px;
+  //font-size: 1.7em;
+  
+  //text-transform: uppercase;
+  //letter-spacing: -1px;
+  padding-top: 15px;    //로고 상단 틈
+  //font-weight: bold;
+}
+
+#logo:hover {    //로고에 마우스 올릴 시
+  //color: #faa;
+  text-decoration: none;    //하이퍼링크 표시 삭제
+}
+
+.navbar {
+    height: 90px;
+    background-color:White;
+    
+    border-top-width:4px;    // 네비게이션 바 상단 검은 줄
+    border-top-color:Black;
+    
+    border-bottom-width:15px;    // 네비게이션 바 하단 회색 줄
+    border-bottom-color:rgb(245,245,245);
+}
+
+
+
+.nav > li > a:hover{
+    background-color:rgb(255,255,255);  // 메뉴 focusing 시의 색
+    font-weight: bold;
+}
+
+header {
+    .container {        // nav 바 안의 container
+        height: 90px;
+        
+        .facebook {
+          
+          font-weight: 900;
+        }
+        
+        nav a {                // nav 바 안의 메뉴들
+            height: 90px;    // 높이 기본 수정.
+            width: 95px;    // 각 메뉴의 길이
+            color: rgb(180,180,180);    // 각 메뉴의 글꼴 색
+            text-align:center;
+            padding-top:30px;    // 메뉴의 상단 거리
+            font-style: medium;
+            letter-spacing: -1px;
+            font-size: 1.1em;
+        }
+
+        
+    }
+}
+
+
+
+/* 하단 요약글귀 */
+
+.black-border {     // 아래쪽 블랙 라인.
+  background-color:Black;
+  border-bottom-width:3px;
+  border-bottom-color:Black;
+  padding-bottom:3px;
+}
+
+
+.abstract {  //메인 화면 하단 요약 글귀
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.abstract a {
+  color: rgb(180,180,180); // 하단 요약 + 아이콘 색;
+}
+.abstract span:before {  
+  font-size: 0.7em;  //크기
+}
+.abstract span:hover {    // 하단 + 아이콘 마우스 포커싱 시 색
+  color: rgb(80,80,80);
+  text-decoration: underline;
+}
+
+.glyphicon {
+   line-height: 10px;  // +자 아이콘 수직 가운데 배치
+}
+
+
+
+
+h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(10,50,50);
+}
+
+.abstract p {
+  font-size: 1em;
+}
+
+.abstract-content {
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: rgb(240,240,240);
+  height: 80px;
+  letter-spacing: -1px;
+}
+
+footer a {
+  //color: #555;
+  color:rgb(180,180,180);
+  font-size: 0.85em;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-right: 10px;
+}
+
+
+
+
+/* 미션 */
+
+
+
+
+/* 팀소개 */
+
+.team-row {
+  padding: 40px 15px 40px 15px;
+  
+  
+  border-bottom-style:solid;
+  border-bottom-width:15px;
+  border-bottom-color:rgb(245,245,245);
+  
+}
+
+.team-big {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.team-small {
+  font-size: 0.9em;
+  font-weight: 200;
+  margin-bottom: 0px;
+}

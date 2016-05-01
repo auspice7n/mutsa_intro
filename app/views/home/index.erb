@@ -1,0 +1,75 @@
+
+<div id="myCarousel" class="carousel slide black-border" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <%= image_tag("container_1.png") %>
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <%= image_tag("container_2.png") %>
+      <div class="carousel-caption">
+        <h3>Chania</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+<div class="abstract container">
+      <div class="row">
+        
+        <div class="col-md-4 col-sm-4 col-xs-6">
+          <h5>블랙의 미션
+            <a href="mission"><span style="float:right; margin-right:10px margin-bottom:10px" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+          </h5>
+          <p><%= image_tag("container_1.png", class:"abstract-content black-border") %></p>
+          <p>비록 우리들의 때깔은 온전치 못하더라도 누군가가 우리들로 인해 빛날 수 있다면 좋겠다는 미션 </p>
+          
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-6">
+          <h5>먹인블랙 서비스
+          <a href="service">
+            <span style="float:right; margin-right:10px" class="glyphicon glyphicon-plus" aria-hidden="true">
+            </span></a></h5>
+          <p><%= image_tag("container_1.png", class:"abstract-content black-border") %></p>
+          <p>먹인블랙인 이러이러한 서비스로 먹스트리트에 많은 푸드트럭이 오면 좋겠다 나라나라남남 테스트필드 </p>
+          
+       </div>
+        <div class="col-md-4 col-sm-4 col-xs-6">
+          <h5>당신의 파트너
+          <a href="contact">
+            <span style="float:right; margin-right:10px" class="glyphicon glyphicon-plus" aria-hidden="true">
+            </span></a></h5>
+          <p><%= image_tag("container_1.png", class:"abstract-content black-border") %></p>
+          
+          <p>지금 바로 연락하세요 !</p>
+          
+        </div>
+      </div>
+</div>
