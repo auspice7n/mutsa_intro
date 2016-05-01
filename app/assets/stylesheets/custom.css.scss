@@ -29,6 +29,22 @@ body {
   font-weight: 600;
   margin-bottom:10px;
 }
+.sub-small {
+  font-size:30px;
+  font-weight:bold;
+  margin-left:300px;
+}
+.value-name {
+  font-size: 1.0em;
+  font-weight:bold;
+}
+.value-content {
+  font-size: 1.0em;
+  font-family: 'Noto Sans', sans-serif;
+}
+.word {
+  font-weight:bolder;
+}
 .main-small {
   font-size: 0.9em;
   font-weight: 200;
@@ -232,7 +248,7 @@ footer ul li {
 /* 팀소개 */
 
 .team-row {
-  padding: 40px 15px 40px 15px;
+  padding: 70px 15px 70px 15px;
   
   
   border-bottom-style:solid;
