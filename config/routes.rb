@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'team' => 'home#team'
   get 'contact' => 'home#contact'
   get 'service' => 'home#service'
+  post "/write" =>'home#write'
   
   # You can have the root of your site routed with "root"
   root 'home#index'

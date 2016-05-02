@@ -4,12 +4,13 @@
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
   <!-- 슬라이더 사진 들어갈 부분 -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <%= image_tag("container_1.png") %>
+      <%= image_tag("home/home_slider1.png") %>
       <div class="carousel-caption">
         <h3>#1-Initiation</h3>
         <p>"내가 제일 좋아하는 새로운 순간의 시작이에요"</p>
@@ -17,10 +18,18 @@
     </div>
 
     <div class="item">
-      <%= image_tag("container_2.png") %>
+      <%= image_tag("home/home_slider2.png") %>
       <div class="carousel-caption">
         <h3>#2-Pending tray</h3>
         <p>"작은 순간들이 모여서 거대한 미래를 만들지"</p>
+      </div>
+    </div>
+    
+    <div class="item">
+      <%= image_tag("home/home_slider3.png") %>
+      <div class="carousel-caption">
+        <h3>#3-Collaboration</h3>
+        <p>"모두가 함께 꿈을 이뤄가는 시간"</p>
       </div>
     </div>
 
@@ -46,8 +55,8 @@
           <h5>블랙의 미션
             <a href="mission"><span style="float:right; margin-right:10px margin-bottom:10px" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
           </h5>
-          <p><%= image_tag("container_1.png", class:"abstract-content black-border") %></p>
-          <p>당신의 때깔이 환하게 빛나는 그날까지, MIB는 보이지 않는 곳에서 언제나 함께 하겠습니다.</p>
+          <p><%= image_tag("home/small_pic1.png", class:"abstract-content black-border") %></p>
+          <p>당신의 때깔이 환하게 빛나는 그날까지, MIB는 언제나 여러분과 함께 하겠습니다.</p>
           
         </div>
         <div class="col-md-4 col-sm-4 col-xs-6">
@@ -55,8 +64,8 @@
           <a href="service">
             <span style="float:right; margin-right:10px" class="glyphicon glyphicon-plus" aria-hidden="true">
             </span></a></h5>
-          <p><%= image_tag("container_1.png", class:"abstract-content black-border") %></p>
-          <p>먹인블랙은 MIB팀의 첫번째 서비스로써 Meok In Black, Made In Backdoor, Most Important Bowls 등의 뜻을 내포하고 있습니다. 푸드트럭과 학교의 선순환 구조를 만들어 유니스트 후문 먹스트리트로 만들어 보이겠습니다.</p>
+          <p><%= image_tag("home/small_pic2.png", class:"abstract-content black-border") %></p>
+          <p>먹인블랙은 MIB팀의 첫번째 서비스로써 Meok In Black, Made In Backdoor, Most Important Bowls 등의 뜻을 내포하고 있습니다. </p>
           
        </div>
         <div class="col-md-4 col-sm-4 col-xs-6">
@@ -64,7 +73,7 @@
           <a href="contact">
             <span style="float:right; margin-right:10px" class="glyphicon glyphicon-plus" aria-hidden="true">
             </span></a></h5>
-          <p><%= image_tag("container_1.png", class:"abstract-content black-border") %></p>
+          <p><%= image_tag("home/small_pic3.png", class:"abstract-content black-border") %></p>
           
           <p>저희 요원들은 어디에도 있고, 어디에도 없습니다. 일상 속 사소한 어려움에 처한 당신, 지금 바로 연락하세요!</p>
           

@@ -1,6 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+//@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+//@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+//@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 
 
@@ -8,19 +12,23 @@
 /* 전체적으로 적용하기 */
 body {    
   padding-top: 90px;    //nav 바를 고려, 60px 공백
-  font-family: 'Noto Sans', sans-serif;
+    font-family:'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  //font-family: 'Noto Sans KR', sans-serif;
+  //font-family: '굴림', sans-serif;
   color:rgb(80,80,80);
 }
 
 .main-title-big {
   font-size: 5em;
   font-weight:500;
+  
   margin-bottom:-20px;
 }
 
 .main-title-small {
   font-size: 5em;
   font-weight:100;
+  
   margin-bottom:-20px;
 }
 
@@ -31,8 +39,8 @@ body {
 }
 .sub-small {
   font-size:30px;
-  font-weight:bold;
-  margin-left:300px;
+
+  margin-left:480px;
 }
 .value-name {
   font-size: 1.0em;
@@ -40,7 +48,6 @@ body {
 }
 .value-content {
   font-size: 1.0em;
-  font-family: 'Noto Sans', sans-serif;
 }
 .word {
   font-weight:bolder;
@@ -49,6 +56,21 @@ body {
   font-size: 0.9em;
   font-weight: 200;
   margin-bottom:40px;
+}
+.main-pic {
+  padding: 0px 60px 20px 60px;
+  margin-bottom:10px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(180,180,180);
+  border-bottom-width: 1px;
+}
+
+.main-pic-service {
+  padding: 0px 10px 20px 10px;
+  margin-bottom:10px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(180,180,180);
+  border-bottom-width: 1px;
 }
 
 
@@ -155,10 +177,11 @@ header {
 /* 하단 요약글귀 */
 
 .black-border {     // 아래쪽 블랙 라인.
-  background-color:Black;
+  //background-color:Black;
+  border-bottom-style:solid;
   border-bottom-width:3px;
   border-bottom-color:Black;
-  padding-bottom:3px;
+  margin-bottom:3px;
 }
 
 
@@ -266,4 +289,7 @@ footer ul li {
   font-size: 0.9em;
   font-weight: 200;
   margin-bottom: 0px;
+}
+.fa-globe {
+  content: "\f0ac";
 }
